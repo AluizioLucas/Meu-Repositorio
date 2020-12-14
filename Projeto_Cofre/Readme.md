@@ -2,7 +2,7 @@
 
 - Fiz o projeto do cofre me baseando no projeto do riquinha ja feito em aula, mas adicionei interação como requisitado. Tambem le o Capitulo 5.
 
-- Fiz com Iury de Oliveira - 470666
+- Fiz com Iury de Oliveira - 470367
 
 - Fiz comparando com o projeto de referencia e fui adaptando pra interagir pelo terminal.
 
