@@ -33,25 +33,27 @@ public class CalangoPoket {
     public void batalhar(){
         if(resistencia > 0 && 5 <= vida){
             resistencia --;
-            vida =-5;
-            forca = +1;
-            levelPoint = +10;
+            vida = vida - 17;
+            forca = forca + 1;
+            levelPoint = levelPoint + 10;
+            this.toString();
+            System.out.println("Que pea foi essa em \n");
         }
         else System.out.println("Melhor ir descansar ou comer alguma coisa antes de ir a luta");
     }
 
     public void dormir(){
         vida = vidaMax;
-        resistencia = -2;
+        resistencia = resistencia - 2;
     }
 
     public void treinar(){
         if(levelPoint >= (100 * vari)){
             vari ++;
-            this.vidaMax = +10;
-            this.resistenciaMax = +2;
-            this.forcaMax = +3;
-            this.level ++;
+            vidaMax = vidaMax + 10;
+            resistenciaMax = resistenciaMax + 2;
+            forcaMax = forcaMax + 3;
+            level ++;
             levelPoint = 0;
         }
         else System.out.println("Seu calango do agreste não tem pontos suficientes");
@@ -60,11 +62,14 @@ public class CalangoPoket {
 
 
 
-
-
-
     public static void main(String[] args) {
         CalangoPoket cacau = new CalangoPoket("Lavrante", 100, 10, 15);
-        System.out.println(cacau);
+        
+        cacau.batalhar();
+        cacau.batalhar();
+        cacau.batalhar();
+        cacau.batalhar();
+        cacau.batalhar();
+        
     }
 }
