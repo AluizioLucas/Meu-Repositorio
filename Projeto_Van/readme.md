@@ -1,0 +1,5 @@
+- 1) Fiz o progeto da Van tilizando os projetos anteriores como base
+- 2) esse fiz sozinho, demorei um pouco pra fazer, ainda estou me acustumando com a volta das aulas
+- 3) usei o projeto do cinema como base fazendo as adptações necessarias
+- 4) estou com um pouco de dificuldade no projeto, mas vou continuar modificando ate estar mais familiarisado
+- 5) cercade umas 3h
