@@ -182,10 +182,10 @@ class Busca{
             System.out.println("$" + line);
             String ui[] = line.split(" ");
             
-            if(ui[0].equals("end")){
+            if(ui[0].equals("Encerrar")){
                 break;
                  
-            }else if(ui[0].equals("add")){
+            }else if(ui[0].equals("Adicionar")){
 
                 agenda.initContato(ui[1]);
                 
@@ -194,16 +194,16 @@ class Busca{
                     agenda.addContato(ui[1], partes[0], partes[1]);
                 }
             
-            }else if(ui[0].equals("rmFone")){
+            }else if(ui[0].equals("RemoverFone")){
                 agenda.rmFoneindice(ui[1], Integer.parseInt(ui[2]));
             
             }else if(ui[0].equals("agenda")){
                 agenda.show();
 
-            }else if(ui[0].equals("rmContato")){
+            }else if(ui[0].equals("RemoverContato")){
                 agenda.rmContato(ui[1]);
                 
-            }else if(ui[0].equals("search")){ 
+            }else if(ui[0].equals("Procurar")){ 
                 agenda.search(ui[1]);
                 
             }else{
